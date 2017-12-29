@@ -35,8 +35,6 @@ public abstract class AbstractSort {
     }
 
     public void print() {
-        System.out.println("==============================");
         System.out.println(Arrays.toString(arr));
-        
     } 
 } 
