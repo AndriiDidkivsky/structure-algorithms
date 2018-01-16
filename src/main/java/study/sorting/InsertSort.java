@@ -1,4 +1,4 @@
-package com.study.sorting;
+package study.sorting;
 
 public class InsertSort extends AbstractSort {
     public InsertSort(int size) {

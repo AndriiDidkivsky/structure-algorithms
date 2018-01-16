@@ -1,4 +1,4 @@
-package com.study.sorting;
+package study.sorting;
 
 import java.nio.Buffer;
 
