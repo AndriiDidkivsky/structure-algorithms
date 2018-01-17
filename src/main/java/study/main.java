@@ -17,8 +17,8 @@ class Main {
         s2.print();
 
         MaxSubArray mas = new MaxSubArray();
-        int arr[] = {1,2,3,4,5,6,7, 1, 2, 4, -7};
-        int res = mas.findMaxSubArray(arr, 0, 4);
+        int arr[] = {1,2,3, 1, 2, 4, -7, 12, 3, 5};
+        int res = mas.findMaxSubArray(arr, 0, arr.length - 1);
         System.out.println(res);
     } 
 } 
